@@ -10,6 +10,11 @@ pipeline {
        echo 'hello world'
      }
     }
+   stages('Hello1') {
+     steps {
+      echo 'hello hyderabad'
+     }
+   }
 
   }
   post {
