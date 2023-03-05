@@ -49,8 +49,8 @@ pipeline {
       }
     }
 
-    stage('test2') {
-      stage {
+   stage('test2') {
+      steps {
         script {
           print "abc = ${abc}"
         }
